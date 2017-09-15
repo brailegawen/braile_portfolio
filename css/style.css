@@ -1,0 +1,190 @@
+body{
+	font-family: 'Exo 2', sans-serif;
+}
+
+.upper-section{
+	height: 80vh;
+	background-color: #b62f2f;
+	background:transparent;
+    background-image: linear-gradient(rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url(../pics/port1.jpeg);
+    background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+.upper-section > .row {
+	position: relative;
+	overflow: hidden;
+}
+.upper-section .upper-head p{
+	font-size: 30px;
+	font-weight: bolder;
+	position: absolute;
+	top: %;
+	left: 30%;
+	color: green;
+
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    /*width:150px;*/
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 5vw;
+  	margin-top: 1vw
+
+
+ }
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.btn-connect,
+.btn-education,
+.btn-work,
+.btn-skills,
+.btn-resume,
+.btn-portfolio
+ {
+	position: absolute;
+}
+
+.colm {
+	height: 80vh;
+	position: relative;
+	overflow: hidden;
+}
+.btn-connect {
+
+	top: 70%;
+	left: 10%;
+}
+
+.btn-education {
+
+	top: 20%;
+	left: 15%;
+}
+
+.btn-work {
+
+	top: 75%;
+	left: 75%;
+}
+
+.btn-skills {
+
+	top: 25%;
+	left: 70%;
+}
+
+.btn-resume {
+
+	top: 12%;
+	left: 40%;
+}
+
+.btn-portfolio {
+
+	top: 80%;
+	left: 40%;
+}
+
+.braile {
+	position: absolute;
+	top: 30%;
+	left: 40%
+}
+
+@media (max-width: 665px){
+	.hidden-ow{
+		display: none; !important
+	}
+}
+
+@media (min-width: 664px){
+	.hidden-ows{
+		display: none; !important
+	}
+}
+
+
+/*.btn-connect-2,
+.btn-education-2,
+.btn-work-2,
+.btn-skills-2,
+.btn-resume-2,
+.btn-portfolio-2{
+	position: static;
+
+}
+*/
+
+.btn-connect-2 button,
+.btn-education-2 button,
+.btn-work-2 button,
+.btn-skills-2 button,
+.btn-resume-2 button,
+.btn-portfolio-2 button{
+	position: sticky;
+	width: 100%;
+	/*position: static;*/
+
+}
+
+.colm-2 {
+	
+}
+
+.upper-section-alt{
+	height: 80vh;
+	background-color: #b62f2f;
+	background:transparent;
+    background-image: linear-gradient(rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url(../pics/port1.jpeg);
+    background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+.braile2{
+	margin-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

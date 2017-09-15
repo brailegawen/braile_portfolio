@@ -1,0 +1,99 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+ .navbar.transparent {
+    height: 50vw;
+    border-width: 0px;
+    box-shadow: 0px 0px;
+    background:transparent;
+    background-image: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../pics/people.jpeg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.tag {
+/*    margin-left: 5vw;
+    margin-top: 5vw;*/
+    position: absolute;
+    top: 40%;
+    left:25%;
+    transform: translate(50% 50%);
+}
+
+.tag p{
+    color: white;
+    font-size: 5vw;
+    font-weight: bolder;
+}
+
+.tag span{
+    color: #0080ff;
+}
+
+ul > li > button >p {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: white;
+    font-weight:1000;
+    font-size: 2vw;
+    color: white;
+
+}
+
+ul > li > button >p > a{
+    color: white;
+}
+
+
+h3 { 
+    position: relative;
+    text-align: center;
+}
+h3:first-line {
+    color: darkred;
+    font-weight: bold;
+    background-color: white;
+}
+h3:before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    margin-top: -1px;
+    border: 1px solid darkred;    
+}
+
+
+.braile {
+	margin-left: 40%;
+}
+
+.table > thead> tr >th{
+    border:none; !important
+}
+
+/*.tags {
+    background-color: grey;
+}
+*/
+
+img {
+    border-radius: 10%;
+}
+
+.edit {
+    border: 1px solid lightblue;
+    border-radius: 15px;
+    width: 80px;
+}
+
+.links p {
+    font-size: 5vw;
+    font-weight: bolder;
+}
