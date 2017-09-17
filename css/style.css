@@ -1,190 +1,163 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
 body{
 	font-family: 'Exo 2', sans-serif;
 }
 
-.upper-section{
-	height: 80vh;
-	background-color: #b62f2f;
-	background:transparent;
-    background-image: linear-gradient(rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url(../pics/port1.jpeg);
-    background-size: cover;
+/*--- banner ---*/
+
+.banner {
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url(../pics/bg.jpeg);
+	background-size: cover;
 	background-repeat:no-repeat;
 	background-attachment: fixed;
 }
-.upper-section > .row {
-	position: relative;
-	overflow: hidden;
-}
-.upper-section .upper-head p{
-	font-size: 30px;
-	font-weight: bolder;
-	position: absolute;
-	top: %;
-	left: 30%;
-	color: green;
 
-}
-
-button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    /*width:150px;*/
-    background-color: white; 
-    color: black; 
-    border: 2px solid #4CAF50;
-    border-radius: 5vw;
-  	margin-top: 1vw
-
-
- }
-
-.button1:hover {
-    background-color: #4CAF50;
-    color: white;
+.banner > .row,
+.banner > .row > .b1,
+.banner > .row > .b2,
+.banner > .row > .b3,
+.banner > .row > .col-xs-12{
+	height: 100%;
+	padding: 0;
 }
 
 
-.btn-connect,
-.btn-education,
-.btn-work,
-.btn-skills,
-.btn-resume,
-.btn-portfolio
- {
-	position: absolute;
-}
-
-.colm {
-	height: 80vh;
-	position: relative;
-	overflow: hidden;
-}
-.btn-connect {
-
-	top: 70%;
-	left: 10%;
-}
-
-.btn-education {
-
-	top: 20%;
-	left: 15%;
-}
-
-.btn-work {
-
-	top: 75%;
-	left: 75%;
-}
-
-.btn-skills {
-
-	top: 25%;
-	left: 70%;
-}
-
-.btn-resume {
-
-	top: 12%;
-	left: 40%;
-}
-
-.btn-portfolio {
-
-	top: 80%;
-	left: 40%;
-}
-
-.braile {
-	position: absolute;
-	top: 30%;
-	left: 40%
-}
-
-@media (max-width: 665px){
-	.hidden-ow{
-		display: none; !important
+@media (max-width: 767px){
+	.banner > .row-1 {
+		display: none;
 	}
-}
-
-@media (min-width: 664px){
-	.hidden-ows{
-		display: none; !important
-	}
-}
-
-
-/*.btn-connect-2,
-.btn-education-2,
-.btn-work-2,
-.btn-skills-2,
-.btn-resume-2,
-.btn-portfolio-2{
-	position: static;
 
 }
-*/
 
-.btn-connect-2 button,
-.btn-education-2 button,
-.btn-work-2 button,
-.btn-skills-2 button,
-.btn-resume-2 button,
-.btn-portfolio-2 button{
-	position: sticky;
+.banner > .row > .b1 > .contact,
+.banner > .row > .b1 > .resume,
+.banner > .row > .b3 > .portfolio,
+.banner > .row > .b3 > .skills{
+	height: 50%;
+	border: 5px solid white;
+}
+
+.banner > .row > .b2 > .education,
+.banner > .row > .b2 > .work{
+	height: 30%;
+	border: 5px solid white;
+
+}
+
+.banner > .row > .b2 > .braile {
+	height: 40%;
+	border: 5px solid white;
+}
+
+.banner > .row button {
 	width: 100%;
-	/*position: static;*/
+}
+
+
+.banner > .row-1 button >a {
+	font-size: 2vw;
+	text-decoration: none;
+	color: white;
+	transition-duration: 0.4s;
 
 }
 
-.colm-2 {
-	
+.banner > .row > .b2 > .braile > button >a{
+	font-size: 3vw;
+	text-decoration: none;
+	color: white;
+}
+.banner > .row > .b2 > .braile >p{
+	color: white;
 }
 
-.upper-section-alt{
-	height: 80vh;
-	background-color: #b62f2f;
-	background:transparent;
-    background-image: linear-gradient(rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url(../pics/port1.jpeg);
-    background-size: cover;
+.banner > .row-1  button >a:hover {
+	text-decoration: none;
+	font-size: 3vw;
+}
+
+
+
+
+
+@media (min-width: 769px){
+	.banner > .row-2 {
+		display: none;
+	}
+}
+
+
+.banner > .row > .col-xs-12 > .contact,
+.banner > .row > .col-xs-12 > .resume,
+.banner > .row > .col-xs-12 > .portfolio,
+.banner > .row > .col-xs-12 > .skills,
+.banner > .row > .col-xs-12 > .education,
+.banner > .row > .col-xs-12 > .work{
+	height: 13%;
+	border: 1px solid white;
+}
+
+.banner > .row-2 > .col-xs-12 > .braile {
+	height: 22%;
+	border: 1px solid white;
+}
+
+.banner > .row-2 button >a {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	transition-duration: 0.4s;
+
+}
+
+/*--- /banner ---*/
+
+
+/*--- education ---*/
+
+.education-section {
+	background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%), url(../pics/education-bg.jpeg);
+	background-size: cover;
 	background-repeat:no-repeat;
-	background-attachment: fixed;
-}
-
-.braile2{
-	margin-left: 40%;
+	background-attachment: scroll;
+	overflow-x: hidden;
 }
 
 
 
+.work-section {
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%), url(../pics/work-bg.jpeg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
+	overflow-x: hidden;
+}
 
 
 
+.skills-section {
+	height: 50vh;
+	background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%), url(../pics/skills-bg.jpeg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
+	overflow-x: hidden;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.portfolio-section {
+	height: 50vh;
+	background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%), url(../pics/portfolio-bg.jpeg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment: scroll;
+	overflow-x: hidden;
+}
 
 
