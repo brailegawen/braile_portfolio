@@ -12,7 +12,7 @@ h1{
 }
 .banner {
 	height: 100vh;
-	background-image: linear-gradient(rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url(../pics/bg.jpeg);
+	background-image: linear-gradient(rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url(../pics/bg.jpeg);
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-attachment: fixed;
@@ -62,16 +62,22 @@ h1{
 	border: 5px solid white;
 }
 
-.banner > .row button {
+.banner > .row > .b2 > .braile a
+{
+	font-size: 50px;
+}
+
+.banner > .row a {
 	width: 100%;
 }
 
 
-.banner > .row-1 button >a {
+.banner > .row-1 a {
 	font-size: 2vw;
 	text-decoration: none;
 	color: white;
 	transition-duration: 0.4s;
+
 
 }
 
@@ -80,17 +86,24 @@ h1{
 	text-decoration: none;
 	color: white;
 }
-.banner > .row > .b2 > .braile >p{
+.banner > .row > .b2 > .braile >p,
+.banner > .row-1 p
+{
 	color: white;
 }
 
-.banner > .row-1  button >a:hover {
+.banner > .row-1  a:hover {
 	text-decoration: none;
 	font-size: 3vw;
 }
 
 
-
+#braile-pic
+{
+	border-radius: 50%;
+	position: absolute;
+	transform: translate(50%, 50%);
+}
 
 
 @media (min-width: 769px){
@@ -114,6 +127,8 @@ h1{
 	height: 22%;
 	border: 1px solid white;
 }
+
+
 
 .banner > .row-2 button >a {
 	font-size: 20px;
@@ -140,7 +155,7 @@ h1{
 
 
 .work-section {
-	height: 100vh;
+	height: auto;
 	background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%), url(../pics/work-bg.jpeg);
 	background-size: cover;
 	background-repeat:no-repeat;
@@ -279,8 +294,8 @@ h1{
 
 
 .skills-section {
-	height: 50vh;
-	background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%), url(../pics/skills-bg.jpeg);
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%), url(../pics/course.png);
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-attachment: scroll;
@@ -288,7 +303,7 @@ h1{
 }
 
 .portfolio-section {
-	height: 50vh;
+	height: auto;
 	background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%), url(../pics/portfolio-bg.jpeg);
 	background-size: cover;
 	background-repeat:no-repeat;
