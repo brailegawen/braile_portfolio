@@ -1,7 +1,4 @@
 
-.sampul{
-	width: 200px;
-}
 body{
 	font-family: 'Exo 2', sans-serif;
 }
@@ -26,10 +23,24 @@ h1{
 	height: 100%;
 	padding: 0;
 }
+.storywise{
+	font-family: sans-serif;
+	color: black;
+	font-weight: bold;
+	text-indent: 50px;
+	line-height: 25px;
+}
 
+.mememe {
+	margin-top: 50px;
+	border-radius: 50%;
+}
 
-
-
+.over 
+{
+	padding-right: 0 important ;
+	overflow: hidden;
+}
 @media (max-width: 767px){
 	.banner > .row-1 {
 		display: none;
@@ -97,15 +108,6 @@ h1{
 	font-size: 3vw;
 }
 
-
-#braile-pic
-{
-	border-radius: 50%;
-	position: absolute;
-	transform: translate(50%, 50%);
-}
-
-
 @media (min-width: 769px){
 	.banner > .row-2 {
 		display: none;
@@ -139,17 +141,15 @@ h1{
 }
 
 /*--- /banner ---*/
-
+.about-me{
+	height: auto;
+}
 
 /*--- education ---*/
 
 .education-section {
-	height: 100vh;
-	background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%), url(../pics/education-bg.jpeg);
-	background-size: cover;
-	background-repeat:no-repeat;
-	background-attachment: scroll;
-	overflow-x: hidden;
+	height: auto;
+	background-color: lightgrey;
 }
 
 
@@ -185,7 +185,7 @@ h1{
 	}
 
 	/* Container around content */
-	.container {
+	.conts {
 	  margin:0;
 	  padding: 10px 40px;
 	  position: relative;
@@ -194,7 +194,7 @@ h1{
 	}
 
 	/* The circles on the timeline */
-	.container::after {
+	.conts::after {
 	  content: '';
 	  position: absolute;
 	  width: 25px;
@@ -215,6 +215,7 @@ h1{
 	/* Place the container to the right */
 	.right {
 	  left: 50%;
+
 	}
 
 	/* Add arrows to the left container (pointing right) */
@@ -294,12 +295,9 @@ h1{
 
 
 .skills-section {
-	height: 100vh;
-	background-image: linear-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0) 100%), url(../pics/course.png);
-	background-size: cover;
-	background-repeat:no-repeat;
-	background-attachment: scroll;
-	overflow-x: hidden;
+	width: 100%;
+	height: auto;
+	background-color: white;
 }
 
 .portfolio-section {
@@ -309,41 +307,4 @@ h1{
 	background-repeat:no-repeat;
 	background-attachment: scroll;
 	overflow-x: hidden;
-}
-
-
-#f1_container {
-  position: relative;
-  margin: 10px auto;
-  width: 200	px;
-  height: 281px;
-  z-index: 1;
-}
-#f1_container {
-  perspective: 1000;
-}
-#f1_card {
-  width: 100%;
-  height: 100%;
-  transform-style: preserve-3d;
-  transition: all 1.0s linear;
-}
-#f1_container:hover #f1_card {
-  transform: rotateY(180deg);
-  box-shadow: -5px 5px 5px #aaa;
-}
-.face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-.face.back {
-  display: block;
-  transform: rotateY(180deg);
-  box-sizing: border-box;
-  padding: 10px;
-  color: white;
-  text-align: center;
-  background-color: #aaa;
 }
