@@ -20,103 +20,130 @@
 </head>
 <body>
 
-
-<div style="min-height: 100" class="sampul">
-	
-</div>
 	<div class="banner container-fluid">
-		<div class="row-1 row">
-			<div class="b1 col-lg-3 col-md-3 col-sm-3">
+		<ul class="row-1 row" id="myNavbar">
+			<li class="b1 col-lg-3 col-md-3 col-sm-3">
+
 				<div class="contact">
-					<a href="#" type="button" class="btn btn-link">GET IN TOUCH</a>
+					<a href="#contact" type="button" class="btn btn-link">GET IN TOUCH</a>
 					<p class="text-center">Social Media</p>
 					<p class="text-center">and</p>
 					<p class="text-center">Contact info</p>
 				</div>
 
 				<div class="resume">
-					<a href="#" type="button" class="btn btn-link">RESUME</a>
+					<a href="#about" type="button" class="btn btn-link">RESUME</a>
 					<p class="text-center">About me and a</p>
 					<p class="text-center">Dowloadable resume</p>
 				</div>	
-			</div>
+			</li>
 
-			<div class="b2 col-lg-6 col-md-6 col-sm-6">
+			<li class="b2 col-lg-6 col-md-6 col-sm-6">
 				<div class="education">
-					<a href="#" type="button" class="btn btn-link">EDUCATION</a>
+					<a href="#educ" type="button" class="btn btn-link">EDUCATION</a>
 
-					<p class="text-center">We might be on</p>
+					<p class="text-center">We might have had</p>
 					<p class="text-center">the same class together!!</p>
 				</div>
 
 				<div class="braile">
-					<img src="./pics/me.jpg" width="100" height="100" id="braile-pic">
-					<a href="#" type="button" class="btn btn-link">BRAILE GAWIGAWEN</a>
+					
+					<a href="#about" type="button" class="btn btn-link">BRAILE GAWIGAWEN</a>
 					<p class="text-center">Data Analyst</p>
 					<p class="text-center">Web Designer, Web developer</p>
 				</div>
 
 				<div class="work">
-					<a href="#" type="button" class="btn btn-link">WORK EXPERIENCE</a>
+					<a href="#work" type="button" class="btn btn-link">WORK EXPERIENCE</a>
 					<p class="text-center">Life after uni</p>
 					<p class="text-center">Living indepedently</p>
 				</div>
-			</div>
+			</li>
 
-			<div class="b3 col-lg-3 col-md-3 col-sm-3">
+			<li class="b3 col-lg-3 col-md-3 col-sm-3">
 				<div class="portfolio">
-					<a href="#" type="button" class="btn btn-link">PORTFOLIO</a>
-					<p class="text-center">Static Website</p>
-					<p class="text-center">(the rest to follow :D)</p>
+					<a href="#portfolio" type="button" class="btn btn-link">PORTFOLIO</a>
+					<p class="text-center">1. Static Website</p>
+					<p class="text-center">2. Dynamic website</p>
+					<p class="text-center">(Using vanilla Php with MySQLi)</p>
+					<p class="text-center">3. Dynamic website</p>
+					<p class="text-center">(Using Laravel Framework)</p>
 				</div>
 				<div class="skills">
-					<a href="#" type="button" class="btn btn-link">SKILLS</a>
+					<a href="#skills" type="button" class="btn btn-link">SKILLS</a>
 					<p class="text-center">Indulge me a moment</p>
-					<p class="text-center">to brag about</p>
+					<p class="text-center">to show you</p>
 					<p class="text-center">what I can do</p>
 				</div>
-			</div>
+			</li>
 
-		</div>	
-
+		</ul>	
+			
 		<div class="row-2 row">
 			<div class="col-xs-12">
 
 				<div class="braile">
-					<button type="button" class="btn btn-link"><a href="#">BRAILE GAWIGAWEN</a></button>
+					<button type="button" class="btn btn-link"><a href="#about">BRAILE GAWIGAWEN</a></button>
 				</div>
 				<div class="contact">
-					<button type="button" class="btn btn-link"><a href="#">GET IN TOUCH</a></button>
+					<button type="button" class="btn btn-link"><a href="#contact">GET IN TOUCH</a></button>
 				</div>
 
 				<div class="resume">
-					<button type="button" class="btn btn-link"><a href="#">RESUME</a></button>
+					<button type="button" class="btn btn-link"><a href="#about">RESUME</a></button>
 				</div>	
 				<div class="education">
-					<button type="button" class="btn btn-link"><a href="#">EDUCATION</a></button>
+					<button type="button" class="btn btn-link"><a href="#educ">EDUCATION</a></button>
 				</div>
 
 				<div class="work">
-					<button type="button" class="btn btn-link"><a href="#">WORK EXPERIENCE</a></button>
+					<button type="button" class="btn btn-link"><a href="#work">WORK EXPERIENCE</a></button>
 				</div>
 				<div class="portfolio">
-					<button type="button" class="btn btn-link"><a href="#">PORTFOLIO</a></button>
+					<button type="button" class="btn btn-link"><a href="#portfolio">PORTFOLIO</a></button>
 				</div>
 				<div class="skills">
-					<button type="button" class="btn btn-link"><a href="#">SKILLS</a></button>
+					<button type="button" class="btn btn-link"><a href="#skills">SKILLS</a></button>
 				</div>
 			</div>		
 		</div>
 	</div>	
 
-	<div class="education-section" id="educ">
+	<div class="about-me container-fluid" id="about">
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h1>EDUCATIONAL BACKGROUND</h1>
+			<div class="over col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				
+				<div class="col-lg-4 text-center">
+					<img src="./pics/me.jpg" width="350" height="436" class="mememe img-responsive">
+				</div>
+				<div class="col-lg-7 story">
+					<h1 class="text-center">HEY THERE!</h1>
+					<p class="storywise">After university, the only goal I had was to land a decent job that would let me be indepedent. I ended up being underemployed - TWICE. It was to noone's fault but mine. However, it was on those two jobs that I've met people who eventually peaked my interest in coding. This had me curiouser and curiouser (apparently, that's a word) to point where I decided - this is it for me. This is what I want to do. I did the self-studying routine for quite sometime, only to find out I'm not sure if i'm doing things right - given I'm not showing/creating any output. Fortunately, I stumbled into knowing about TUITT CODING BOOTCAMP while searching for coding classes that I could take. I enrolled. I was interviewed. I took the class. Three months later, voila! THIS. </p>
+
+					<p class="storywise">Granted, i'm still a novice in all things Web development,but my passion for coding keeps me from wanting to learn more - sagaciously, intently.</p>
+				</div>
+			</div>
+
+		</div>
+		<br><br><br>
+		<div class="row resume_">
+			<div class="text-center">
+				<a href="./pics/resume_.docx" download>
+					<button type="button" class="btn btn-primary">Download RESUME</button>
+				</a>
+			</div>
+		</div>
+
+	</div><br><br><br>
+
+	<div class="education-section container-fluid" id="educ">
+		<div class="row">
+			<div class="over col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h1 class="text-center">EDUCATIONAL BACKGROUND</h1>
 			</div>
 
 			<div class="elem col-lg-4 col-md-4 col-sm-6 col-xs-12">
-				<h3>ELEMENTARY</h3>
+				<h3 class="text-center">ELEMENTARY</h3>
 				<hr>
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 					<h4>Primary</h4>
@@ -136,7 +163,7 @@
 
 
 			<div class="second col-lg-4 col-md-4 col-sm-6 col-xs-12">
-				<h3>SECONDARY</h3>
+				<h3 class="text-center">SECONDARY</h3>
 				<hr>
 
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -154,7 +181,7 @@
 			</div>
 
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-				<h3>UNIVERSITY</h3>
+				<h3 class="text-center">UNIVERSITY</h3>
 				<hr>
 				<h4>BS ELECTRONICS ENGINEERING</h4>
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -174,24 +201,24 @@
 		</div>
 	</div>
 
-	<div class="work-section" id="work">
+	<div class="work-section container-fluid" id="work">
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h1>WORK EXPERIENCE/ TRAININGS</h1>
+			<div class="over col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h1 class="text-center">WORK EXPERIENCE/ TRAININGS</h1>
 			</div>
 		</div>
 		
 		<div class="row">
-			<div class="timelie col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<div class="timeline">
-					<div class="container left">
+					<div class="container conts left">
 						<div class="content">
 							<h2>2012</h2>
 							<p>OJT - Digitel Bagiuo (240 hrs)</p>
 							<P> Field and administrative work</P>
 						</div>
 					</div>
-					<div class="container right">
+					<div class="container conts right">
 						<div class="content">
 							<h2>2013 - 2015</h2>
 							<p>CSP - SITEL Baguio</p>
@@ -199,16 +226,15 @@
 						</div>
 					</div>
 
-					<div class="container left">
+					<div class="container conts left">
 						<div class="content">
 							<h2>2016 - present</h2>
 							<p>Data Analyst - Accenture Philippines</p>
-							<p>Description:</p>
 							<P>Financial account dealing with insurance billing</P>
 						</div>
 					</div>
 
-					<div class="container right">
+					<div class="container conts right">
 						<div class="content">
 							<h2>Aug 2017 - Nov 2017</h2>
 							<p>TUITT - coding bootcamp</p>
@@ -226,89 +252,132 @@
 
 
 	<div class="skills-section container-fluid" id="skills">
+		<h1 class="text-center">SKILL-SET</h1>
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h1>SKILL-SET</h1>
-
+			<div class="over col-lg-12 col-md-12 col-sm-12 col-xs-12">	
+				<img src="./pics/course.png" class="img-responsive skillsz">
 			</div>
 		</div>
 		
 	</div>
 
-	<div class="portfolio-section" id="portfolio">
+	<div class="portfolio-section container-fluid" id="portfolio">
 		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<h1>PORTFOLIO</h1>
+			<div class="over col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h1 class="text-center">PORTFOLIO</h1>
 			</div>
-			<div class="col-lg-6 text-center">
+			<div class="col-lg-4 text-center">
 				<div class="col-lg-12">
-				<h4>Capstone Project 1- The Retail Group</h4>
-				<div class="col-lg-10 col-lg-offset-1">
-				<a href="https://brailegawen.github.io/b5dc-capstone-one/"><img src="pics/csp1.png" width="450" height="300" class="img-responsive"></a>
-				</div>
+					<h4>Capstone Project 1- The Retail Group</h4>
+					<div class="col-lg-10 col-lg-offset-1">
+						<a href="https://brailegawen.github.io/b5dc-capstone-one/" target="_blank"><img src="pics/csp1.png" width="450" height="300" class="img-responsive"></a><br>
+						<h4>A static website created as a proposed website for the team I'm working with. - Purely design, no backend.</h4>
+					</div>
+
 				</div>
 			</div>
-			<div class="col-lg-6 text-center">
+			<div class="col-lg-4 text-center">
 				<div class="col-lg-12">
 				<h4>Capstone Project 2- CouchPotato</h4>
-				<div class="col-lg-10 col-lg-offset-1">
-				<a href="https://brailegawen.000webhostapp.com"><img src="pics/csp2.png" width="450" height="300" class="img-responsive"></a>
-				</div>
+					<div class="col-lg-10 col-lg-offset-1">
+					<a href="https://brailegawen.000webhostapp.com" target="_blank"><img src="pics/csp2.png" width="450" height="300" class="img-responsive"></a><br>
+					<h4>A netflix-inspired website. This is for the couchpotatoes whose only pastime is with their idiot box. - Vanilla Php with MySqli</h4>
+					</div>
 				</div>
 			</div>
+
+			<div class="col-lg-4 text-center">
+				<div class="col-lg-12">
+				<h4>Capstone Project 3- Scheduler</h4>
+					<div class="col-lg-10 col-lg-offset-1">
+					<a href="https://schedcap3.000webhostapp.com/" target="_blank"><img src="pics/cap3.png" width="450" height="400" class="img-responsive"></a><br>
+					<h4>If you need a hassle-free planning with your peers or family, check this out. Iinitiate a plan, invite, discuss, finalize. - Laravel framework with MySqli</h4>
+					</div>
+				
+				</div>
+			</div>
+
 		
-		</div>
+		</div><br>
 	</div>
 
+	<div class="container-fluid" id="contact">
+		<div class="row">
+			<div class="over col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h1 class="text-center">Contact</h1>
+				<div class="col-lg-6 text-center">
+					<h2 class="text-center">Social Media</h2>
+					<span class="fa-stack fa-5x">
+						<span class="fa fa-square-o fa-stack-2x"></span>
+						<a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><span class="fa fa-facebook fa-stack-1x"></span></a>
+					</span>
 
+					<span class="fa-stack fa-5x">
+						<span class="fa fa-square-o fa-stack-2x"></span>
+						<a href="https://plus.google.com/u/0/115186821989306469093" target="_blank"><span class="fa fa-google-plus fa-stack-1x"></span></a>
+					</span>
+				</div>
+
+				<div class="col-lg-6">
+					<h2 class="text-center">Email me</h2>
+						<div class="panel">
+									<div class="panel-body">
+
+										<div class="form-group">
+											<input type="text" name="name" class="form-control" placeholder="Full name">
+										</div>
+
+										<div class="form-group">
+											<input type="text" name="email" class="form-control" placeholder="email">
+										</div>
+										
+
+										<div class="form-group">
+											<textarea rows="10" cols="50" class="form-control" placeholder="Message here . . .">
+											
+											</textarea>
+										</div>						
+
+
+										<div>
+											<a href="index-home.html"><button class="btn btn-primary">Send message</button></a>
+										</div>
+									</div>
+								</div>
+				</div>
+				<div>
+					<p class="text-center">&copy; Copyright 2017 BcG</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
 	<!-- import jquery -->
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="./js/bootstrap.js"></script>
+	
 
-<script type="text/javascript">
-dragElement(document.getElementById(("braile-pic")));
+	<script>
+		$(document).ready(function(){
+		 
+		  $('body').scrollspy({target: ".banner", offset: 50});   
 
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    /* if present, the header is where you move the DIV from:*/
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
-    /* otherwise, move the DIV from anywhere inside the DIV:*/
-    elmnt.onmousedown = dragMouseDown;
-  }
+		  $("#myNavbar a").on('click', function(event) {
+		    if (this.hash !== "") {
+		      event.preventDefault();
+		      var hash = this.hash;
 
-  function dragMouseDown(e) {
-    e = e || window.event;
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
-
-  function elementDrag(e) {
-    e = e || window.event;
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
-
-  function closeDragElement() {
-    /* stop moving when mouse button is released:*/
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
-
-
-</script>
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
+		   
+		        window.location.hash = hash;
+		      });
+		    }  
+		  });
+		});
+	</script>
 
 
 
