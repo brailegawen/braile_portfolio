@@ -21,7 +21,7 @@
 <body>
 
 	<div class="banner container-fluid">
-		<ul class="row-1 row" id="myNavbar">
+		<ul class="row-1 row myNavbar">
 			<li class="b1 col-lg-3 col-md-3 col-sm-3">
 
 				<div class="contact">
@@ -79,8 +79,8 @@
 
 		</ul>	
 			
-		<div class="row-2 row">
-			<div class="col-xs-12">
+		<div class="row-2 row banner">
+			<div class="col-xs-12 myNavbar">
 
 				<div class="braile">
 					<button type="button" class="btn btn-link"><a href="#about">BRAILE GAWIGAWEN</a></button>
@@ -363,7 +363,7 @@
 		 
 		  $('body').scrollspy({target: ".banner", offset: 50});   
 
-		  $("#myNavbar a").on('click', function(event) {
+		  $(".myNavbar a").on('click', function(event) {
 		    if (this.hash !== "") {
 		      event.preventDefault();
 		      var hash = this.hash;
